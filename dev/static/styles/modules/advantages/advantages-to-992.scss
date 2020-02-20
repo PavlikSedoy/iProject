@@ -1,0 +1,23 @@
+.advantages {
+  padding-top: 120px;
+
+  &__title {
+    top: -180px;
+  }
+}
+
+.advantages-item {
+  &__icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+    svg {
+      width: 40px;
+    }
+  }
+
+  &__container {
+    grid-gap: 60px;
+  }
+}

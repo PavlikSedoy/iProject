@@ -1,0 +1,40 @@
+.how-img-slider {
+  width: 160px;
+
+  &__screen {
+    height: 300px;
+  }
+
+  &__container {
+    width: 170px;
+  }
+
+  .swiper-wrapper {
+    width: 160px;
+  }
+
+  &__slide {
+    min-height: 390px;
+    align-items: flex-start;
+  }
+}
+
+.how {
+  &__img-slider-wr {
+    background: (-25px) (-18px)/auto 390px no-repeat url('../images/how/phone.png');
+    padding-left: 20px;
+    height: 350px;
+  }
+
+  &__general-title {
+    font-size: 120px;
+  }
+
+  &__img-slider-wr {
+    top: 200px;
+  }
+
+  &__desc-slider {
+    width: 450px;
+  }
+}

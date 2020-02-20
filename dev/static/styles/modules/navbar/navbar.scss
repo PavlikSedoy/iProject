@@ -16,6 +16,12 @@
   &__lng {
     margin: 0 50px 0 60px;
   }
+
+  &__logo-link {
+    svg {
+      max-width: 100%;
+    }
+  }
 }
 
 // Navigation

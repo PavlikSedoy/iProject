@@ -1,0 +1,12 @@
+.header {
+  height: 600px;
+  min-height: auto;
+
+  &__container {
+    height: calc(100% - 50px);
+  }
+
+  &__left-dots {
+    top: 75px;
+  }
+}

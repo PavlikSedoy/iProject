@@ -1,0 +1,35 @@
+.download {
+  &__general-title {
+    font-size: 70px;
+  }
+
+  &__title {
+    font-size: 40px;
+  }
+
+  &__content {
+    padding-bottom: 20px;
+  }
+
+  &__stores {
+    margin-top: 30px;
+  }
+
+  &__store-item {
+    width: 170px;
+
+    svg {
+      max-width: 100%;
+    }
+  }
+
+  &__in {
+    height: 380px;
+  }
+
+  &__phone-img {
+    width: 315px;
+    left: -255px;
+    top: -70px;
+  }
+}

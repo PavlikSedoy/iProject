@@ -34,8 +34,13 @@ $(document).ready(function () {
     // Screens slider
     var howScreenSlider = new Swiper ('.how-img-slider__container', {
         slidesPerView: 1,
-        spaceBetween: 40,
-        allowTouchMove: false
+        spaceBetween: 10,
+        allowTouchMove: false,
+        breakpoints: {
+            1200: {
+              spaceBetween: 40
+            }
+          }
     });
     // End screen slider
 

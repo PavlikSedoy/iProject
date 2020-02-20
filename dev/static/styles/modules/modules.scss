@@ -23,3 +23,18 @@
   @import "download/download-to-1200.scss";
   @import "footer/footer-to-1200.scss";
 }
+
+@media screen and (max-width: 1199px) {
+  .section-title {
+    font-size: 150px;
+  }
+
+  @import "container/container-to-992.scss";
+  @import "header/header-to-992.scss";
+  @import "navbar/navbar-to-992.scss";
+  @import "about/about-to-992.scss";
+  @import "advantages/advantages-to-992.scss";
+  @import "how/how-to-992.scss";
+  @import "download/download-to-992.scss";
+  @import "footer/footer-to-992.scss";
+}
