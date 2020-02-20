@@ -1,0 +1,31 @@
+.download {
+  &__in {
+    width: 650px;
+    height: 450px;
+  }
+
+  &__container {
+    left: calc(650px - 50vw);
+  }
+
+  &__phone-img {
+    width: 375px;
+    left: -325px;
+    top: -80px;
+  }
+
+  &__content {
+    margin-right: 35px;
+    max-width: 500px;
+  }
+
+  &__general-title {
+    left: 90px;
+    top: -45px;
+    font-size: 90px;
+  }
+
+  &__dots {
+    bottom: -100px;
+  }
+}

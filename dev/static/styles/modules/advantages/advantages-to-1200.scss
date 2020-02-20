@@ -1,0 +1,31 @@
+.advantages {
+  padding-top: 180px;
+
+  &__container {
+    grid-template-columns: repeat(4, 140px);
+    grid-gap: 110px;
+  }
+}
+
+.advantages-item {
+  &__icon {
+    width: 140px;
+    height: 140px;
+
+    svg {
+      width: 50px;
+    }
+  }
+
+  &:first-child {
+    &__icon {
+      svg {
+        width: 60px;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+}

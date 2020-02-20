@@ -36,8 +36,10 @@
       width: 60px;
       height: auto;
     }
+  }
 
-    &:first-child {
+  &:first-child {
+    &__icon {
       svg {
         width: 70px;
       }

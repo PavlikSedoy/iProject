@@ -1,0 +1,21 @@
+.about {
+  &__left-side {
+    flex-basis: 450px;
+  }
+
+  &__content-side {
+    flex-basis: calc(100% - 450px);
+  }
+
+  &__dots {
+    top: 0;
+  }
+
+  &__content {
+    margin-left: 70px;
+  }
+
+  &__general-title {
+    left: -170px;
+  }
+}

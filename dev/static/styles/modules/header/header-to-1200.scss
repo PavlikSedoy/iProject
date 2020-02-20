@@ -1,0 +1,15 @@
+.header {
+  &__title {
+    font-size: 70px;
+  }
+
+  &__content {
+    max-width: 650px;
+  }
+}
+
+.header-image {
+  &__right-dots {
+    bottom: 0;
+  }
+}

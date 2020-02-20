@@ -1,7 +1,8 @@
 .header__navbar.navbar
   .container.navbar__container
     //- Logo side
-    a.navbar__logo-link(href="#top") Logo
+    a.navbar__logo-link(href="#top")
+      include ../../static/images/svg/logo.svg
 
     //- Rigt side
     .navbar__controls
@@ -18,7 +19,12 @@
 
       //- Language switcher
       .navbar__lng.lng
-        | lng swtch
+        .lng__current
+          img.lng__flag(src="./static/images/header/lng/eng.jpg"
+     srcset="./static/images/header/lng/eng@2x.jpg 2x, ./static/images/header/lng/eng@3x.jpg 3x")
+          span.lng__name ENG
+          .lng__arrow
+            include ../../static/images/svg/lng-arrow.svg
       //- End language switcher
 
       //- Button

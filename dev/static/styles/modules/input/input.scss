@@ -25,5 +25,9 @@
     svg {
       width: 16px;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

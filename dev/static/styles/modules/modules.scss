@@ -11,7 +11,15 @@
 @import "how/how.scss";
 @import "download/download.scss";
 @import "input/input.scss";
+@import "lng/lng.scss";
 
 @media screen and (max-width: 1699px) {
   @import "container/container-to-1200.scss";
+  @import "header/header-to-1200.scss";
+  @import "about/about-to-1200.scss";
+  @import "dots/dots-to-1200.scss";
+  @import "advantages/advantages-to-1200.scss";
+  @import "how/how-to-1200.scss";
+  @import "download/download-to-1200.scss";
+  @import "footer/footer-to-1200.scss";
 }

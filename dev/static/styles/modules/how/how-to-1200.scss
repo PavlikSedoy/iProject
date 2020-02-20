@@ -1,0 +1,22 @@
+.how {
+  &__desc-slider {
+    margin-left: 50px;
+  }
+
+  &__desc-slider {
+    z-index: z('content');
+  }
+
+  &__container {
+    z-index: z('content');
+    position: relative;
+  }
+
+  &__img-slider-wr {
+    left: 55%;
+  }
+
+  &__dots {
+    bottom: 150px;
+  }
+}
