@@ -1,0 +1,105 @@
+.header {
+  background: $blue;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  min-height: 750px;
+  overflow: hidden;
+
+  // Bg svg fugures
+  &__first-figure {
+    width: 36vw;
+    left: 0;
+    top: 0;
+    z-index: z('bg-figures');
+    position: absolute;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  // End bg svg figures
+
+  // Image bg
+  &__image-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 49vw;
+  }
+
+  // Navbar
+  &__navbar {
+    z-index: z('navbar');
+    position: relative;
+  }
+
+  // Content
+  &__container {
+    height: calc(100vh - 78px);
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__content {
+    max-width: 670px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: z('content');
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.13;
+    color: $white
+  }
+
+  &__btn {
+    margin-top: 43px;
+    align-self: flex-start;
+  }
+
+  // Dots
+  &__left-dots {
+    position: absolute;
+    top: 75px;
+    left: -55px;
+  }
+}
+
+// Background image
+.header-image {
+  position: absolute;
+
+  &__figure {
+    position: absolute;
+    width: 56vw;
+    height: 100%;
+    bottom: -60px;
+    right: 0;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: z('middle-bg');
+  }
+
+  // Dots
+  &__right-dots {
+    position: absolute;
+    bottom: 17%;
+    left: -1.5%;
+  }
+}
+// End background image

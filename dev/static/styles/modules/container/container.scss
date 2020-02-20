@@ -1,0 +1,7 @@
+.container {
+  position: relative;
+  max-width: 1640px;
+  padding: 0 15px;
+  width: 100%;
+  @include push--auto;
+}

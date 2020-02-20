@@ -1,0 +1,30 @@
+header.header
+
+  //- Require navbar
+  include ./navbar
+
+  //- Top left svg
+  .header__first-figure
+    include ../../static/images/svg/path-3.svg
+
+
+  //- Image bg block
+  .header__image-bg.header-image
+    //- Right svg
+    .header-image__figure
+      include ../../static/images/svg/path-2.svg
+    
+    //- Image bg
+    img.header-image__bg(src="./static/images/header/bg-img/brown-wooden-desk-with-rolling-chair-and-shelves-near-window.png" srcset="./static/images/header/bg-img/brown-wooden-desk-with-rolling-chair-and-shelves-near-window@2x.png 2x, ./static/images/header/bg-img/brown-wooden-desk-with-rolling-chair-and-shelves-near-window@3x.png 3x")
+
+    //- Right dots
+    +dots(10, 'white', 'header-image__right-dots')
+  //- End image bg block
+
+  .container.header__container
+    //- Left dots
+    +dots(7, 'white', 'header__left-dots')
+
+    .header__content
+      h1.header__title Furnish the room in one moment!
+      a.header__btn.btn.btn__type_second(href="/") download now

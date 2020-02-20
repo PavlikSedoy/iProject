@@ -1,0 +1,35 @@
+.navbar {
+  padding-top: 30px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // Right side (controls)
+  &__controls {
+    display: flex;
+    align-items: center;
+  }
+
+  &__lng {
+    margin: 0 50px 0 60px;
+  }
+}
+
+// Navigation
+.nav { 
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin: 0 43px;
+  }
+
+  &__link {
+    font-weight: 500;
+  }
+}
+// End navigation

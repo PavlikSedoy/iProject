@@ -1,0 +1,31 @@
+.btn {
+  outline: none;
+  cursor: pointer;
+
+  &__type {
+    // Navabr button
+    &_first {
+      background: $white;
+      padding: 10px 35px;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 700;
+      border-radius: 30px;
+      box-shadow: 0 5px 15px 0 rgba($black, .1);
+    }
+    // End navbar button
+
+    // Header content button
+    &_second {
+      display: block;
+      background: $white;
+      border-radius: 10px;
+      box-shadow: 0 20px 40px 0 rgba($black, .1);
+      padding: 20px 70px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $blue;
+    }
+    // End header content button
+  }
+}

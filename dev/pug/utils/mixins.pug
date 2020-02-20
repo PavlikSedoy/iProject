@@ -1,0 +1,33 @@
+mixin icon(name,mod)
+	if(mod)
+		svg(class="svg-sprite-icon icon-" + name + ' ' + mod)
+			use(xlink:href="static/images/svg/symbol/sprite.svg#" + name)
+	else
+		svg(class="svg-sprite-icon icon-" + name)
+			use(xlink:href="static/images/svg/symbol/sprite.svg#" + name)
+
+//- Dots mixin
+mixin dots(cols, color, parentClass)
+	- var dot = 1
+	- var dots = cols * 7
+
+	if color == "white"
+		div(class="dots " + parentClass + " dots__col_" + cols)
+			while dot <= dots
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+	else
+		div(class="dots " + color + " " + parentClass + " dots__col_" + cols)
+			while dot++ <= dots
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
+				span(data-id=dot++)
