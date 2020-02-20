@@ -1,0 +1,29 @@
+.download {
+  &__in {
+    width: 100%;
+    background: rgba($white, .9);
+  }
+
+  &__container {
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    position: relative;
+    transform: translate(0,0);
+  }
+
+  &__content {
+    margin: auto;
+  }
+
+  &__phone-img {
+    left: 0;
+    top: auto;
+    bottom: 290px;
+  }
+
+  &__general-title {
+    top: -60px;
+  }
+}

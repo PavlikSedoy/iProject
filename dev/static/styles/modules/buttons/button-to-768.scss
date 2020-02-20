@@ -1,0 +1,12 @@
+.btn {
+  &__type {
+    &_first {
+      padding: 10px 15px;
+    }
+
+    &_second {
+      padding: 15px 40px;
+      font-size: 14px;
+    }
+  }
+}

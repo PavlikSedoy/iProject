@@ -1,0 +1,39 @@
+.about {
+  padding-top: 70px;
+  padding-bottom: 90px;
+
+  &__container {
+    flex-wrap: wrap;
+  }
+
+  &__left-side {
+    flex-basis: 100%;
+  }
+
+  &__content-side {
+    flex-basis: 100%;
+  }
+
+  &__image {
+    width: 60%;
+  }
+
+  &__general-title {
+    left: 290px;
+    top: -470px;
+  }
+
+  &__dots {
+    top: -230px;
+    right: 70px;
+  }
+
+  &__title {
+    margin-left: 0;
+    text-align: right;
+  }
+
+  &__btn {
+    margin-top: 30px;
+  }
+}

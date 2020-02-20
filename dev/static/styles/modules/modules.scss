@@ -38,3 +38,25 @@
   @import "download/download-to-992.scss";
   @import "footer/footer-to-992.scss";
 }
+
+@media screen and (max-width: 991px) {
+  .section-title {
+    font-size: 100px;
+  }
+
+  .section-subtitle {
+    font-size: 40px;
+  }
+
+  @import "container/container-to-768.scss";
+  @import "buttons/button-to-768.scss";
+  @import "lng/lng-to-768.scss";
+  @import "navbar/navbar-to-768.scss";
+  @import "header/header-to-768.scss";
+  @import "dots/dots-to-768.scss";
+  @import "about/about-to-768.scss";
+  @import "advantages/advantages-to-768.scss";
+  @import "how/how-to-768.scss";
+  @import "download/download-to-768.scss";
+  @import "footer/footer-to-768.scss";
+}

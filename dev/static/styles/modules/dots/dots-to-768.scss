@@ -1,0 +1,9 @@
+.dots {
+  grid-gap: 10px;
+}
+
+.header-image {
+  &__right-dots {
+    left: -11%;
+  }
+}

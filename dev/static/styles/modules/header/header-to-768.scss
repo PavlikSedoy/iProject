@@ -1,0 +1,15 @@
+.header {
+  height: 450px;
+
+  &__title {
+    font-size: 50px;
+  }
+
+  &__content {
+    max-width: 410px;
+  }
+
+  &__btn {
+    margin-top: 30px;
+  }
+}
