@@ -18,4 +18,10 @@
     height: 5px;
     border-radius: 50%;
   }
+
+  &.blue {
+    span {
+      background: $blue;
+    }
+  }
 }

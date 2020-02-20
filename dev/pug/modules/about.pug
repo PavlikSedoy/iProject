@@ -1,0 +1,21 @@
+section.about#about
+  .container.about__container
+    //- Image side
+    .about__left-side
+      img.about__image(src="./static/images/about/group-49.png" srcset="./static/images/about/group-49@2x.png 2x, ./static/images/about/group-49@3x.png 3x", alt="3Dapp")
+    //- End image side
+
+    //- Content side
+    .about__content-side
+      //- Dots
+      +dots(7, 'blue', 'about__dots')
+
+      //- Content
+      .about__content
+        h2.section-title.about__general-title About
+        h3.about__title.section-subtitle Home Decor it`s...
+        .about__text
+          p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        a.about__btn.btn.btn__type_third(href="/") Try to use
+      //- End content
+    //- Content side

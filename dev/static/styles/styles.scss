@@ -21,7 +21,7 @@ ul, li {
 
 a { text-decoration: none; color: $black }
 
-p { margin: 0; }
+p { margin: 0; line-height: 1.75; }
 
 audio,
 canvas,
@@ -34,6 +34,20 @@ textarea { vertical-align: middle; }
 textarea { resize: none; }
 
 section { position: relative; }
+
+.section-title {
+  font-weight: 900;
+  line-height: 1.35;
+  color: rgba($black, .08);
+  font-size: 180px;
+}
+
+.section-subtitle {
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.8;
+  font-size: 50px;
+}
 
 input,
 select,
