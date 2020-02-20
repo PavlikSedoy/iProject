@@ -1,0 +1,29 @@
+.input-first {
+  width: 100%;
+  position: relative;
+
+  &__input {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid $black;
+    width: 100%;
+    font-weight: 300;
+    color: rgba($black, .4);
+  }
+
+  &__btn {
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    svg {
+      width: 16px;
+    }
+  }
+}

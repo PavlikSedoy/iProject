@@ -1,1 +1,45 @@
 footer.footer
+  .container.footer__container
+    h2.section-title.footer__title Contacts
+    //- Send email
+    .footer__send-mail.contact-us
+      h4.contact-us__title Contact us
+      p.contact-us__desc Send your e-mail and our manager will contact you!
+      .contact-us__input.input-first
+        input#contactUs.input-first__input(placeholder="Your e-mail", type="text", inputmode="email", require)
+        button(type="submit").input-first__btn
+          include ../../static/images/svg/send-button.svg
+    //- End left side
+
+    //- Contacts
+    .footer__contacts.footer-contacts
+      ul.footer-contacts__list
+        li.footer-contacts__item
+          a.footer-contacts__link(href="tel://0800454800")
+            include ../../static/images/svg/call-answer.svg
+            span 0 800 454 800
+        li.footer-contacts__item
+          a.footer-contacts__link(href="mailto://support@iproject.com")
+            include ../../static/images/svg/call-answer.svg
+            span support@iproject.com
+    //- End contacts
+
+    //- location and social
+    .footer__location-social.footer-last
+      .footer-last__location
+        include ../../static/images/svg/call-answer.svg
+        span Sumskaya st. 1, office 501, Kiev, Ukraine
+      .footer-last__bottom-row
+        .footer-last__social.footer-social
+          ul.footer-social__list
+            li.footer-social__item
+              a.footer-social__link(href="/")
+                include ../../static/images/svg/facebook.svg
+            li.footer-social__item
+              a.footer-social__link(href="/")
+                include ../../static/images/svg/instagram.svg
+            li.footer-social__item
+              a.footer-social__link(href="/")
+                include ../../static/images/svg/twitter.svg
+        .footer-last__creator © 2010-2019 Home Decor
+    //- End location and social

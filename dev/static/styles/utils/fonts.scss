@@ -3,3 +3,4 @@
 @include font-face('Steradian', '../fonts/Steradian/Steradian Black Italic/SteradianBlackItalic', $weight: 900, $style: italic, $asset-pipeline: false );
 @include font-face('Steradian', '../fonts/Steradian/Steradian Regular/SteradianRegular', $weight: 400, $style: normal, $asset-pipeline: false );
 @include font-face('Steradian', '../fonts/Steradian/Steradian Black/SteradianBlack', $weight: 900, $style: normal, $asset-pipeline: false );
+@include font-face('Steradian', '../fonts/Steradian/Steradian Light/SteradianLight', $weight: 300, $style: normal, $asset-pipeline: false );

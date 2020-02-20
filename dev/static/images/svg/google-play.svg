@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_65" width="220" height="60" data-name="Group 65" viewBox="0 0 220 60">
+    <g id="prefix__Rectangle_40" data-name="Rectangle 40" style="stroke:#000;stroke-width:2px;fill:none">
+        <rect width="220" height="60" rx="30" style="stroke:none"/>
+        <rect width="218" height="58" x="1" y="1" rx="29" style="fill:none"/>
+    </g>
+    <text id="prefix__Google_Play" data-name="Google Play" transform="translate(80 42)" style="font-family:SegoeUI,Segoe UI;font-size:14px">
+        <tspan x="0" y="0">GOOGLE PLAY</tspan>
+    </text>
+    <text id="prefix__Android_app_on" data-name="Android app on" transform="translate(80 25)" style="font-size:10px;font-family:SegoeUI,Segoe UI">
+        <tspan x="0" y="0">Android app on</tspan>
+    </text>
+    <path id="prefix__play-store" d="M37.705 13.719L14.838.345A2.518 2.518 0 0013.566 0h-.026c-.059 0-.118 0-.176.008l-.079.008q-.069.008-.137.02L13.1.044a2.523 2.523 0 00-.821.31A2.638 2.638 0 0011 2.627v26.746a2.638 2.638 0 001.279 2.271 2.521 2.521 0 00.821.31l.045.006q.073.013.147.021l.074.007c.058 0 .116.007.174.008h.029a2.518 2.518 0 001.272-.345l22.864-13.37A2.637 2.637 0 0039 16a2.638 2.638 0 00-1.295-2.281zm-9.043-2.656l-2.274 3.052L20.6 6.35zM36.6 16.3l-16 9.35 10.017-13.441 5.979 3.5a.344.344 0 010 .591z" transform="translate(15.002 14)"/>
+</svg>

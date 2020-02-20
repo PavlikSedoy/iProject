@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_64" width="220" height="60" data-name="Group 64" viewBox="0 0 220 60">
+    <g id="prefix__Rectangle_40" data-name="Rectangle 40" style="stroke:#000;stroke-width:2px;fill:none">
+        <rect width="220" height="60" rx="30" style="stroke:none"/>
+        <rect width="218" height="58" x="1" y="1" rx="29" style="fill:none"/>
+    </g>
+    <text id="prefix__App_store" data-name="App store" transform="translate(80 42)" style="font-family:SegoeUI,Segoe UI;font-size:14px">
+        <tspan x="0" y="0">APP STORE</tspan>
+    </text>
+    <text id="prefix__Download_on_the" data-name="Download on the" transform="translate(80 25)" style="font-size:10px;font-family:SegoeUI,Segoe UI">
+        <tspan x="0" y="0">Download on the</tspan>
+    </text>
+    <path id="prefix__Union_7" d="M3.337 27.9C.363 23.582-1.348 16.458 1.342 11.763a7.951 7.951 0 016.7-4.077h.078a8.889 8.889 0 013.245.829 5.786 5.786 0 001.84.541 5.947 5.947 0 001.78-.535 10.258 10.258 0 013.715-.933c.173 0 .347.008.515.025a7.509 7.509 0 015.918 3.233.263.263 0 01.041.2.26.26 0 01-.115.169l-.025.016a6.887 6.887 0 00-3.234 5.753 6.682 6.682 0 004.029 6.123l.019.008a.263.263 0 01.139.322l-.01.028a17.6 17.6 0 01-2.19 4.513c-1.256 1.845-2.679 3.937-5 3.981a5.566 5.566 0 01-2.529-.61 6.009 6.009 0 00-2.641-.64 6.376 6.376 0 00-2.774.661A6.211 6.211 0 018.5 32h-.116c-2.06 0-3.563-1.939-5.047-4.1zm9.6-20.124a.26.26 0 01-.237-.226 6.87 6.87 0 011.723-5.076A7.243 7.243 0 0119.216 0a.264.264 0 01.271.233A7.251 7.251 0 0117.8 5.455a6.131 6.131 0 01-4.527 2.335c-.113 0-.225-.004-.336-.013z" data-name="Union 7" transform="translate(26.999 13)"/>
+</svg>

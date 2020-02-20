@@ -1,1 +1,128 @@
-footer { flex: 0 0 auto; }
+.footer {
+  
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 300px;
+    padding-bottom: 180px;
+  }
+
+  &__title {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+  }
+
+  &__contacts {
+    margin-left: auto;
+    margin-right: 190px;
+  }
+}
+
+// Footer contact form
+.contuct-us {
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  &__input {
+    width: 50px;
+  }
+}
+// End footer contact form
+
+// Footer contact
+.footer-contacts {
+  &__link {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 16px;
+      height: auto;
+    }
+
+    span {
+      margin-left: 20px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  &__item {
+    &:last-child {
+      margin-top: 30px;
+    }
+  }
+}
+// End footer conacts
+
+// Right block
+.footer-last {
+  // Location
+  &__location {
+    display: flex;
+    align-items: center;
+
+    svg {
+      height: 16px;
+      width: auto;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+  }
+
+  // Bottom row
+  &__bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  // Creator
+  &__creator {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+// End right block
+
+// Social
+.footer-social {
+  &__list {
+    display: flex;
+  }
+  
+  &__item {
+    display: block;
+    margin: 0 12px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  svg {
+    width: 26px;
+    height: auto;
+  }
+}
+// End social
