@@ -1,0 +1,142 @@
+.how {
+  overflow: hidden;
+  padding-bottom: 180px;
+  position: relative;
+
+  &__container {
+    position: relative;
+    padding-top: 150px;
+  }
+
+  // Title
+  &__general-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  // Content slider
+  &__desc-slider {
+    margin-left: 140px;
+    width: 560px;
+    z-index: 2;
+    position: relative;
+  }
+
+  // Screen slider
+  &__img-slider-wr {
+    width: 100vw;
+    position: absolute;
+    left: 45%;
+    top: 90px;
+    height: 520px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    background: (-41px) (-36px)/auto 590px no-repeat url('../images/how/phone.png');
+    padding-left: 44px;
+    padding-top: 14px;
+  }
+
+  // Dots
+  &__dots {
+    position: absolute;
+    left: 10px;
+    bottom: 230px;
+  }
+}
+
+// Content slider
+.how-desc-slider {
+  // Pagination
+  .swiper-pagination-fraction {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 26px;
+  }
+
+  .swiper-pagination-current {
+    font-size: 50px;
+  }
+
+  // slider 
+  &__slide {
+    min-height: 430px;
+  }
+
+  // Title
+  &__title {
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.34;
+  }
+
+  // text
+  &__text {
+    margin-top: 30px;
+  }
+
+  // Navigation
+  &__prev-slide, &__next-slide {
+    bottom: 110px;
+    top: auto;
+    width: 40px;
+    height: 40px;
+    background: $blue;
+    border-radius: 50%;
+    outline: none;
+
+    &:after {
+      font-size: 14px;
+      font-weight: 700;
+      color: $white;
+    }
+  }
+
+  &__prev-slide {
+    left: 0;
+  }
+
+  &__next-slide {
+    left: 50px;
+  }
+}
+// End content slider
+
+// Screen slider
+.how-img-slider {
+  // &:before {
+  //   @include pseudo;
+  //   left: -60vw;
+  //   top: 0;
+  //   height: 100%;
+  //   width: 100vw;
+  //   background: $white;
+  // }
+  width: 220px;
+  overflow: visible;
+
+  &__container {
+    width: 220px;
+    overflow: visible;
+  }
+
+  .swiper-wrapper {
+    width: 220px;
+    overflow: visible;
+  }
+
+  &__slide {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__screen {
+    height: 450px;
+  }
+}
+// End screen slider

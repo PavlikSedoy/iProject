@@ -1,0 +1,59 @@
+section.how#how
+  .container.how__container
+    h2.section-title.how__general-title How it work
+    
+    //- Content slider
+    .how__desc-slider.how-desc-slider
+      .swiper-container.how-desc-slider__container
+        .swiper-pagination
+        
+        .swiper-wrapper
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface2
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface3
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface4
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface5
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            .swiper-slide.how-desc-slider__slide
+              h3.how-desc-slider__title Scan surface6
+              .how-desc-slider__text
+                p Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+
+        .swiper-button-prev.how-desc-slider__prev-slide
+        .swiper-button-next.how-desc-slider__next-slide
+    //- End content slider
+
+    //- Image slider
+    .how__img-slider-wr
+      .how__img-slider.how-img-slider
+        .swiper-container.how-img-slider__container    
+          .swiper-wrapper
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide1.png", alt="screen")
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide2.png", alt="screen")
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide3.png", alt="screen")
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide1.png", alt="screen")
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide2.png", alt="screen")
+              .swiper-slide.how-img-slider__slide
+                img.how-img-slider__screen(src="./static/images/how/slide3.png", alt="screen")
+    //- End image slider
+
+  +dots(7, 'blue', 'how__dots')
