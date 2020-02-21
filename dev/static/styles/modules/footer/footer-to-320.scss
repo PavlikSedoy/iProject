@@ -1,0 +1,35 @@
+.footer {
+  &__title {
+    font-size: 50px;
+    top: 60px;
+    right: auto;
+  }
+
+  &__send-mail {
+    padding-right: 0;
+  }
+
+  &__container {
+    padding-bottom: 30px;
+  }
+}
+
+.footer-last {
+  &__location {
+    margin-top: 30px;
+
+    svg {
+      height: 26px;
+    }
+  }
+
+  &__bottom-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__creator {
+    margin-top: 20px;
+  }
+}

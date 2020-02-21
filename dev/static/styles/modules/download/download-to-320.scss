@@ -1,0 +1,58 @@
+.download {
+  height: 620px;
+
+  &__phone-img {
+    width: 200px;
+  }
+
+  &__general-title {
+    font-size: 50px;
+    top: -26px;
+    left: 40px;
+  }
+
+  &__stores {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 110px;
+  }
+
+  &__in {
+    height: 100%;
+  }
+
+  &__container {
+    align-items: flex-start;
+    
+    &:before {
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($white, .6);
+    }
+  }
+
+  &__content {
+    margin-top: 70px;
+  }
+
+  &__phone-img {
+    bottom: 20px;
+    right: 0;
+    left: auto;
+  }
+
+  &__store-item {
+    width: 130px;
+
+    &:first-child {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+}

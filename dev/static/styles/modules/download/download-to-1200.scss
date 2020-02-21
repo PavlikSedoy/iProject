@@ -1,17 +1,21 @@
 .download {
   &__in {
-    width: 650px;
+    width: 55vw;
     height: 450px;
   }
 
   &__container {
-    left: calc(650px - 50vw);
+    // left: calc(650px - 45vw);
+    &:after {
+      width: calc( (100vw - 1140px) / 2 );
+    }
   }
 
   &__phone-img {
-    width: 375px;
-    left: -325px;
-    top: -80px;
+    // width: 375px;
+    // left: auto;
+    // right: 95%;
+    // top: -80px;
   }
 
   &__content {

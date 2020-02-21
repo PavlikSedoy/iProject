@@ -1,0 +1,28 @@
+.header {
+  &__title {
+    font-size: 26px;
+  }
+
+  &__image-bg {
+    width: 75vw;
+  }
+
+  &__container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+  }
+}
+
+.header-image {
+  &__figure {
+    width: 85vw;
+    bottom: -20px;
+  }
+
+  &__right-dots {
+    left: auto;
+    right: 30px;
+    bottom: -170px;
+  }
+}

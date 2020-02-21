@@ -28,8 +28,22 @@
   }
 
   &__phone-img {
-    width: 315px;
-    left: -255px;
-    top: -70px;
+    // width: 315px;
+    // left: -255px;
+    // top: -70px;
+    left: 8%;
+    width: 365px;
+    top: 461px;
+  }
+
+  &__container {
+    &:before {
+      height: 350px;
+    }  
+  
+    &:after {
+      height: 350px;
+      width: calc( (100vw - 960px) / 2 );
+    }
   }
 }

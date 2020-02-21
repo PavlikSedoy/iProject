@@ -60,3 +60,26 @@
   @import "download/download-to-768.scss";
   @import "footer/footer-to-768.scss";
 }
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 70px;
+  }
+
+  .section-subtitle {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  @import "navbar/navbar-to-320.scss";
+  @import "header/header-to-320.scss";
+  @import "dots/dots-to-320.scss";
+  @import "about/about-to-320.scss";
+  @import "advantages/advantages-to-320.scss";
+  @import "how/how-to-320.scss";
+  @import "download/download-to-320.scss";
+  @import "footer/footer-to-320.scss";
+}
