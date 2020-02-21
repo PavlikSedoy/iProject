@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // Content slider
     var howContentSlider = new Swiper ('.how-desc-slider__container', {
+        // loop: true,
         effect: 'fade',
         fadeEffect: {
             crossFade: true
@@ -33,6 +34,7 @@ $(document).ready(function () {
 
     // Screens slider
     var howScreenSlider = new Swiper ('.how-img-slider__container', {
+        // loop: true,
         slidesPerView: 1,
         spaceBetween: 10,
         allowTouchMove: false,
@@ -47,7 +49,7 @@ $(document).ready(function () {
     // Change screen on changing content slide
     howContentSlider.on('slideChange', function() {
         var toSlide = howContentSlider.activeIndex;
-        howScreenSlider.slideTo(toSlide);
+        howScreenSlider.slideTo(toSlide - 1);
     });
     // End change screen on changing content slide
 

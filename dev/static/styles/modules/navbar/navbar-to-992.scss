@@ -2,7 +2,9 @@
   padding-top: 15px;
 
   &__logo-link {
-    width: 100px;
+    svg {
+      height: 35px;
+    }
   }
 
   &__lng {
