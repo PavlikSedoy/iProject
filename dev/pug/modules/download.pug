@@ -3,19 +3,19 @@ section.download#download
   //- Content container
   .container.download__container
     .download__content
-      h2.section-title.download__general-title Download
-      h3.section-subtitle.download__title Application for you
+      h2.section-title.download__general-title(data-aos="fade-down", data-aos-once="true",data-aos-delay="500", data-aos-duration="1000") Download
+      h3.section-subtitle.download__title(data-aos="fade-down", data-aos-once="true",data-aos-delay="300", data-aos-duration="1000") Application for you
       .download__text
         p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
       .download__stores
-        a.download__store-item(href="/")
+        a.download__store-item(href="/", data-aos="flip-left", data-aos-easing="ease-out-cubic", data-aos-duration="1000", data-aos-delay="700", data-aos-once="true")
           include ../../static/images/svg/google-play.svg
-        a.download__store-item(href="/")
+        a.download__store-item(href="/", data-aos="flip-right", data-aos-easing="ease-out-cubic", data-aos-duration="1000", data-aos-delay="700", data-aos-once="true")
           include ../../static/images/svg/app-store.svg
     //- Dots
     +dots(7, 'blue', 'download__dots')
   //- End content container
 
   //- Phone
-  img.download__phone-img(src="./static/images/download/phone.png", alt="download app")
+  img.download__phone-img.lazy(src="./static/images/download/phone_sm.png", data-src="./static/images/download/phone.png",alt="download app")
   //- End phone
